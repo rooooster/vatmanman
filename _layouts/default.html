@@ -1,0 +1,40 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:image" content="{{ page.og-image }}">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-144.png">
+</head>
+<body class="waypoint" data-animate-down="nav-main-stick" data-animate-up="nav-main-normal">
+
+    {% include nav-lang.html %}
+    {% include content.html %}
+    {% include parallax.html %}
+
+    {{ content }}
+
+    <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-66287816-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+</html>

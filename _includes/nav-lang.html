@@ -1,0 +1,16 @@
+<nav class="lang">
+    {% assign posts=site.posts | where: "lang", "ua" | where: "name", page.name %}
+    {% for post in posts %}
+        <a class="lang__link lang__link--ua" href="{{ site.baseurl }}{{ post.permalink }}">{{ post.lang }}</a>
+    {% endfor %}
+
+    {% assign posts=site.posts | where: "lang", "en" | where: "name", page.name %}
+    {% for post in posts %}
+        <a class="lang__link lang__link--en" href="{{ site.baseurl }}{{ post.permalink }}">{{ post.lang }}</a>
+    {% endfor %}
+
+    {% assign posts=site.posts | where: "lang", "ru" | where: "name", page.name %}
+    {% for post in posts %}
+        <a class="lang__link lang__link--ru" href="{{ site.baseurl }}{{ post.permalink }}">{{ post.lang }}</a>
+    {% endfor %}
+</nav>

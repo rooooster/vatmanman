@@ -1,0 +1,21 @@
+@mixin input {
+    line-height: 20px;
+    padding: 13px 20px;
+    text-align: left;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: transparent;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    // max-height: 40px;
+
+    @include placeholder {
+        color: rgba(#fff,.5);
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
