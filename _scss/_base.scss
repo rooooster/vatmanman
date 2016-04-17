@@ -1,0 +1,33 @@
+html {
+    // min-height: 100%;
+}
+
+body {
+    // height: 100%;
+    // position: relative;
+    @include clearfix;
+    overflow: hidden;
+}
+
+// p {
+//     margin: 0 0 1em;
+// }
+
+a {
+    color: #bc2f13;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+
+    }
+}
+
+main {
+    // float: right;
+    // margin-top: 150px;
+    // margin-right: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

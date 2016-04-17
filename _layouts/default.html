@@ -12,20 +12,26 @@ layout: compress
     <meta name="description" content="{{ page.description }}">
     <meta property="og:image" content="{{ page.og-image }}">
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|PT+Serif:400,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-144.png">
 </head>
-<body class="waypoint" data-animate-down="nav-main-stick" data-animate-up="nav-main-normal">
+<body>
 
-    {% include nav-lang.html %}
     {% include content.html %}
-    {% include parallax.html %}
+
+    <main>
+        {% include logo.html %}
+        {% include vatman.html %}
+    </main>
 
     {{ content }}
 
     <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/simple-parallax.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/flipclock.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/goodshare.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

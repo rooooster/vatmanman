@@ -6,11 +6,14 @@
 // @import 'vendor/slick/slick';
 // @import 'vendor/slick/slick-theme';
 // @import 'vendor/icomoon';
+@import 'vendor/flipclock';
 
 // UI
 @import 'ui/ui-buttons';
-@import 'ui/ui-fields';
 
 // UX
+@import 'base';
 @import 'content';
-@import 'parallax';
+@import 'timer';
+@import 'logo';
+@import 'vatman';

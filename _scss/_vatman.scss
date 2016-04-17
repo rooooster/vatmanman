@@ -1,0 +1,44 @@
+.vatman {
+    // position: absolute;
+    // left: 50%;
+    // width: 433px;
+    // background: #fff;
+    // bottom: 100px;
+    // color: #fff;
+    box-sizing: border-box;
+    position: relative;
+
+    &__bg {
+        // position: absolute;
+        // bottom: -40%;
+        // left: 0;
+        // transform: translate3d(0,-50%,0);
+        // float: 
+        display: block;
+
+    }
+
+    &__text {
+        width: 367px;
+        padding: 28px;
+        line-height: 1.2;
+        position: absolute;
+        left: 0;
+        top: 230px;
+    }
+
+    &__quote {
+        position: relative;
+        color: #b22b10;
+        font-size: 28px;
+        margin-bottom: 50px;
+
+    }
+
+    &__author {
+        position: relative;
+        font-family: 'PT Serif', serif;
+        font-style: italic;
+        font-size: 16px;
+    }
+}

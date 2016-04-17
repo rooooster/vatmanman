@@ -1,33 +1,19 @@
 @mixin btn {
-    color: #fff;
+    color: #bc2f13;
     text-transform: uppercase;
-    border: 1px solid rgba(#fff,.2);
+    border: 1px solid rgba(#fff,.8);
     border-radius: 50px;
     display: inline-block;
     line-height: 20px;
     box-sizing: border-box;
     font-size: 14px;
     padding: 10px 30px;
-    transition: border-color .2s ease;
+    transition: color .2s ease .2s, background .2s ease;
     outline: none;
-
-    svg {
-        margin-left: 8px;
-        display: inline-block;
-        width: 20px;
-        vertical-align: middle;
-        fill: #fff;
-    }
+    background: #fff;
 
     &:hover {
-        border-color: rgba(#fff,.8);
+        background: transparent;
+        color: #fff;
     }
 }
-
-@mixin btn--lg {
-    @include btn;
-    font-size: 18px;
-    border-width: 2px;
-    padding: 15px 30px;
-}
-

@@ -1,6 +1,35 @@
 .content {
-    font-size: 18px;
+    background: #fff;
+    float: left;
+    max-width: 480px;
+    box-shadow: 0 0 40px rgba(#000,.65);
+    padding: 40px 48px;
+    box-sizing: border-box;
 
-    &__item {
+    &__hash {
+        font-size: 23px;
+        margin-bottom: 70px;
+    }
+
+    &__timer {
+        // color: #585858;
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+
+    &__p {
+        // color: #585858;
+        // font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    &__statement {
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+
+    &__share {
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 }

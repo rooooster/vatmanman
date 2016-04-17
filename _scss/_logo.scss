@@ -1,0 +1,49 @@
+.logo {
+    // float: right;
+    // position: absolute;
+    // left: 65%;
+    // top: 0;
+    // margin: 150px 300px 0 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    line-height: 1;
+    margin-bottom: 26px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    z-index: 100;
+
+    &__bg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%,-50%,0);
+    }
+
+    &__mr {
+        position: relative;
+        font-family: 'PT Serif', serif;
+        font-style: italic;
+        font-size: 20px;
+    }
+
+    &__vatman {
+        position: relative;
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__men {
+        position: relative;
+        font-size: 36px;
+        text-transform: uppercase;
+        margin-bottom: 46px;
+    }
+
+    &__btn {
+        position: relative;
+        @include btn;
+    }
+}
