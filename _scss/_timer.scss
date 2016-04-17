@@ -1,45 +1,75 @@
-// @import 'vendor/flipclock';
+@import 'vendor/flipclock';
 
 .timer {
-    margin: 0 0 155px;
-    margin: 60px 0 60px;
+    margin: 0 0 140px;
+    // margin: 0 0 60px;
     position: relative;
     @include clearfix;
-
-    .flip-clock-divider {
-        position: absolute;
-        bottom: 0;
-        // left: 0;
-        font-size: 5px;
-        color: #4b4b4b;
-        // font-weight: 300;
-    }
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     ul {
+        width: 42px;
         margin: 0 2px;
-        margin: 0;
-        // width: auto;
-        padding: 0;
-        list-style: none;
-        position: relative;
-        float: left;
-        width: 30px;
-        // text-align: left;
 
-        li {
-            width: 20px;
-            height: auto;
-
-            a div div.inn {
-                font-size: 64px;
-                font-size: 10px;
-                color: #bc2f13;
-                font-weight: 300;
-                position: absolute;
-                left: 0;
-                top: 0;
-                background: #fff;
-            }
+        li a div div.inn {
+            font-size: 40px;
+            font-weight: 100;
         }
     }
+
+    .flip-clock-divider .flip-clock-label {
+        top: auto;
+        bottom: -1.5em;
+        right: -62px;
+    }
+
+    .flip-clock-divider {
+        width: 16px;
+
+        &:first-child {
+            width: 0;
+        }
+    }
+
+    .flip-clock-dot {
+        width: 5px;
+        height: 5px;
+    }
+
+    // .flip-clock-divider {
+    //     position: absolute;
+    //     bottom: 0;
+    //     // left: 0;
+    //     font-size: 5px;
+    //     color: #4b4b4b;
+    //     // font-weight: 300;
+    // }
+
+    // ul {
+    //     margin: 0 2px;
+    //     margin: 0;
+    //     // width: auto;
+    //     padding: 0;
+    //     list-style: none;
+    //     position: relative;
+    //     float: left;
+    //     width: 30px;
+    //     // text-align: left;
+
+    //     li {
+    //         width: 20px;
+    //         height: auto;
+
+    //         a div div.inn {
+    //             font-size: 64px;
+    //             font-size: 10px;
+    //             color: #bc2f13;
+    //             font-weight: 300;
+    //             position: absolute;
+    //             left: 0;
+    //             top: 0;
+    //             background: #fff;
+    //         }
+    //     }
+    // }
 }
