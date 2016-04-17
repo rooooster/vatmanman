@@ -8,3 +8,11 @@ clock = $('.js-timer').FlipClock(diff, {
     clockFace: 'DailyCounter',
     language: 'russian'
 });
+
+// Click on svg
+
+$(".youtube-link").on("click", function() {
+
+    window.open('https://www.youtube.com/watch?v=lPIW8yZ2F_o','_blank');
+
+});

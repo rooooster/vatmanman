@@ -93,15 +93,22 @@
                                 <path d="M153.631648,34 C147.868466,14.3424877 129.841507,0 108.495413,0 C87.1493191,0 69.1223601,14.3424877 63.3591781,34 L65.4303383,34 C71.1289671,15.4627444 88.2544176,2 108.495413,2 C128.736408,2 145.861859,15.4627444 151.560487,34 L153.631648,34 Z" id="Combined-Shape"></path>
                             </g>
                         </g>
-                        <use id="Rectangle-91" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-5"></use>
-                        <g id="Group-5" transform="translate(166.000000, 247.000000)" fill="#BC2F13">
-                            <text id="СМОТРЕТЬ" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400">
-                                <tspan x="27" y="14">СМОТРЕТЬ</tspan>
-                            </text>
-                            <text id="" font-family="MaterialIcons-Regular, Material Icons" font-size="15" font-weight="normal">
-                                <tspan x="0" y="17"></tspan>
-                            </text>
+
+                        <g class="youtube-link" cursor="pointer">
+                            <use id="Rectangle-91" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-5"></use>
+
+                            <g id="Group-5" transform="translate(166.000000, 247.000000)" fill="#BC2F13">
+
+                                <text id="СМОТРЕТЬ" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400">
+                                    <tspan x="27" y="14">СМОТРЕТЬ</tspan>
+                                </text>
+
+                                <text id="" font-family="MaterialIcons-Regular, Material Icons" font-size="15" font-weight="normal">
+                                    <tspan x="0" y="17"></tspan>
+                                </text>
+                            </g>
                         </g>
+
                         <g id="Group-2" transform="translate(28.000000, 347.000000)" font-weight="normal">
                             <text id="“На-нашем-ватмане-вы" font-family="AvenirNext-Regular, Avenir Next" font-size="30" fill="#B22B10">
                                 <tspan x="0" y="41">“На нашем ватмане вы </tspan>
