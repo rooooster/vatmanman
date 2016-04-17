@@ -11,9 +11,23 @@
     transition: color .2s ease .2s, background .2s ease;
     outline: none;
     background: #fff;
+    text-align: center;
 
     &:hover {
         background: transparent;
         color: #fff;
+    }
+}
+
+@mixin btn--social($btnBgColor) {
+    @include btn;
+    border-radius: 0;
+    background: $btnBgColor;
+    color: #fff;
+    border: none;
+    padding: 30px;
+
+    &:hover {
+        background: darken($btnBgColor, 5);
     }
 }

@@ -24,17 +24,20 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow-prev:before {
-    content: "\e902";
+.icon-play:before {
+    content: "\f04b";
 }
-.icon-arrow-next:before {
-    content: "\e903";
+.icon-twitter:before {
+    content: "\f099";
 }
-.icon-navigate-before:before {
-    content: "\e900";
+.icon-facebook:before {
+    content: "\f09a";
 }
-.icon-navigate-next:before {
-    content: "\e901";
+.icon-facebook-f:before {
+    content: "\f09a";
+}
+.icon-vk:before {
+    content: "\f189";
 }
 
 

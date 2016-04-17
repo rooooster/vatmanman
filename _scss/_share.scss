@@ -1,0 +1,32 @@
+.share {
+
+    &__btn {
+        width: 33.33333%;
+        float: left;
+
+        &--fb {
+            @include btn--social(#3c5a95);
+        }
+
+        &--vk {
+            @include btn--social(#1074b1);
+        }
+
+        &--tw {
+            @include btn--social(#20a7c6);
+        }
+
+        [class^="icon-"] {
+            vertical-align: middle;
+            font-size: 30px;
+            line-height: 0;
+        }
+    }
+
+    &__counter {
+        margin-left: 12px;
+        font-size: 20px;
+        line-height: 0;
+        vertical-align: middle;
+    }
+}

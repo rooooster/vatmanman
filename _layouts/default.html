@@ -12,18 +12,20 @@ layout: compress
     <meta name="description" content="{{ page.description }}">
     <meta property="og:image" content="{{ page.og-image }}">
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|PT+Serif:400,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,900|PT+Serif:400,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-144.png">
 </head>
 <body>
 
-    {% include content.html %}
-
     <main>
-        {% include logo.html %}
-        {% include vatman.html %}
+        {% include content.html %}
+
+        <div class="parallax">
+            {% include logo.html %}
+            {% include vatman.html %}
+        </div>
     </main>
 
     {{ content }}

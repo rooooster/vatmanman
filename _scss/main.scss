@@ -5,8 +5,8 @@
 @import '../node_modules/coriolan-ui/coriolan-ui';
 // @import 'vendor/slick/slick';
 // @import 'vendor/slick/slick-theme';
-// @import 'vendor/icomoon';
-@import 'vendor/flipclock';
+@import 'vendor/icomoon';
+// @import 'vendor/flipclock';
 
 // UI
 @import 'ui/ui-buttons';
@@ -14,6 +14,9 @@
 // UX
 @import 'base';
 @import 'content';
+@import 'parallax';
 @import 'timer';
 @import 'logo';
 @import 'vatman';
+@import 'share';
+

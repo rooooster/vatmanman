@@ -1,16 +1,19 @@
 .content {
     background: #fff;
-    float: left;
-    max-width: 480px;
+    // float: left;
+    // max-width: 480px;
     box-shadow: 0 0 40px rgba(#000,.65);
     padding: 40px 48px;
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     height: 100%;
+    width: 38%;
+    z-index: 200;
 
     &__hash {
         font-size: 23px;
         margin-bottom: 70px;
+        font-weight: 900;
     }
 
     &__timer {
