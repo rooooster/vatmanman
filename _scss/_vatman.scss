@@ -5,26 +5,29 @@
     // background: #fff;
     // bottom: 100px;
     // color: #fff;
-    box-sizing: border-box;
-    position: relative;
+    // box-sizing: border-box;
+    // position: relative;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 
     &__bg {
-        // position: absolute;
-        // bottom: -40%;
-        // left: 0;
         // transform: translate3d(0,-50%,0);
         // float: 
         display: block;
-
+        width: 697px;
+        height: 558px;
     }
 
-    &__text {
-        width: 367px;
+    &__banner {
+        width: 377px;
         padding: 28px;
         line-height: 1.2;
         position: absolute;
         left: 0;
-        top: 230px;
+        top: 208px;
+        // background: #00f;
+        height: 216px;
     }
 
     &__quote {

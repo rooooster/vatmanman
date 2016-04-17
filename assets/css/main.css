@@ -406,9 +406,7 @@ textarea {
 
 body {
   font: 400 16px/1.45 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: -webkit-gradient(linear, left bottom, left top, from(#761603), to(#d93919));
-  background: -webkit-linear-gradient(bottom, #761603, #d93919 100%);
-  background: linear-gradient(to top, #761603, #d93919 100%);
+  background: #fff;
   color: #585858;
 }
 
@@ -940,7 +938,12 @@ body {
 }
 
 body {
-  overflow: hidden;
+  max-width: 1440px;
+  height: 727px;
+  position: relative;
+  margin: 100px auto;
+  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);
+          box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);
 }
 
 body::after {
@@ -956,9 +959,13 @@ a {
 }
 
 main {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  float: right;
+  width: 960px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#761603), to(#d93919));
+  background: -webkit-linear-gradient(bottom, #761603, #d93919 100%);
+  background: linear-gradient(to top, #761603, #d93919 100%);
+  position: relative;
+  height: 100%;
 }
 
 .content {
@@ -970,6 +977,8 @@ main {
   padding: 40px 48px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  position: relative;
+  height: 100%;
 }
 
 .content__hash {
@@ -1007,8 +1016,8 @@ main {
   line-height: 1;
   margin-bottom: 26px;
   position: absolute;
-  top: 10px;
-  left: 10%;
+  bottom: 340px;
+  right: 407px;
   z-index: 100;
 }
 
@@ -1066,22 +1075,25 @@ main {
 }
 
 .vatman {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .vatman__bg {
   display: block;
+  width: 697px;
+  height: 558px;
 }
 
-.vatman__text {
-  width: 367px;
+.vatman__banner {
+  width: 377px;
   padding: 28px;
   line-height: 1.2;
   position: absolute;
   left: 0;
-  top: 230px;
+  top: 208px;
+  height: 216px;
 }
 
 .vatman__quote {
