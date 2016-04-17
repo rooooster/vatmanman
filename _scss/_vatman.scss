@@ -10,6 +10,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    display: none;
 
     &__bg {
         // transform: translate3d(0,-50%,0);
@@ -17,6 +18,8 @@
         display: block;
         width: 697px;
         height: 558px;
+        position: relative;
+        z-index: 70;
     }
 
     &__banner {
@@ -28,6 +31,7 @@
         top: 208px;
         // background: #00f;
         height: 216px;
+        z-index: 110;
     }
 
     &__quote {
@@ -43,5 +47,6 @@
         font-family: 'PT Serif', serif;
         font-style: italic;
         font-size: 16px;
+        color: #a3a3a3;
     }
 }

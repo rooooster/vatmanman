@@ -1,14 +1,14 @@
 html {
-    // height: 100%;
+    height: 100%;
     // background: #fff;
 }
 
 body {
     // max-width: 1440px;
-    // height: 727px;
+    height: 100%;
     position: relative;
     @include clearfix;
-    // margin: 100px auto;
+    margin: 0 auto;
     // overflow: hidden;
     box-shadow: 0 0 40px rgba(#000,.65);
 }
@@ -28,6 +28,11 @@ a {
 }
 
 main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
     // float: right;
     // margin-top: 150px;
     // margin-right: 150px;
@@ -37,9 +42,9 @@ main {
     // float: right;
     // width: 960px;
     // height: 727px;
-    position: relative;
+    // position: relative;
     // height: 100%;
-    @include ratio(100%,1440,800);
-    margin: auto;
+    // @include ratio(100%,1440,800);
+    // margin: auto;
     overflow: hidden;
 }

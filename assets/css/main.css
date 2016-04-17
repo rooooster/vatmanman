@@ -570,8 +570,14 @@ body {
   content: "\f189";
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   position: relative;
+  margin: 0 auto;
   -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);
           box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);
 }
@@ -589,24 +595,26 @@ a {
 }
 
 main {
-  position: relative;
+  position: absolute;
   width: 100%;
-  padding-bottom: 55.55556%;
-  position: relative;
-  margin: auto;
+  height: 100%;
+  left: 0;
+  top: 0;
   overflow: hidden;
 }
 
 .content {
   background: #fff;
+  float: left;
+  max-width: 480px;
   -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);
           box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);
-  padding: 40px 48px;
+  padding: 28px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
   height: 100%;
-  width: 38%;
+  width: 30%;
   z-index: 200;
 }
 
@@ -636,16 +644,116 @@ main {
 }
 
 .parallax {
-  padding: 40px 48px;
+  float: right;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  position: absolute;
   right: 0;
   height: 100%;
-  width: 62%;
+  width: 70%;
   background: -webkit-gradient(linear, left bottom, left top, from(#761603), to(#d93919));
   background: -webkit-linear-gradient(bottom, #761603, #d93919 100%);
   background: linear-gradient(to top, #761603, #d93919 100%);
+  position: relative;
+}
+
+.parallax__men {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+  width: 100%;
+  height: auto;
+  z-index: 180;
+}
+
+.parallax__star {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 80%;
+  height: auto;
+  z-index: 50;
+  -webkit-animation: roter 80s linear infinite;
+          animation: roter 80s linear infinite;
+}
+
+.parallax__balls {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+  width: 95%;
+  height: auto;
+  z-index: 50;
+}
+
+.parallax__balls--one {
+  -webkit-animation: shifter-one 8s linear infinite;
+          animation: shifter-one 8s linear infinite;
+}
+
+.parallax__balls--two {
+  -webkit-animation: shifter-two 8s linear infinite;
+          animation: shifter-two 8s linear infinite;
+}
+
+@-webkit-keyframes roter {
+  from {
+    -webkit-transform: translate3d(-50%, 20%, 0) rotate(0);
+            transform: translate3d(-50%, 20%, 0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate3d(-50%, 20%, 0) rotate(-360deg);
+            transform: translate3d(-50%, 20%, 0) rotate(-360deg);
+  }
+}
+
+@keyframes roter {
+  from {
+    -webkit-transform: translate3d(-50%, 20%, 0) rotate(0);
+            transform: translate3d(-50%, 20%, 0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate3d(-50%, 20%, 0) rotate(-360deg);
+            transform: translate3d(-50%, 20%, 0) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes shifter-one {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+@keyframes shifter-one {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+@-webkit-keyframes shifter-two {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0;
+  }
+}
+
+@keyframes shifter-two {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0;
+  }
 }
 
 .timer {
@@ -703,6 +811,7 @@ main {
   bottom: 340px;
   right: 407px;
   z-index: 100;
+  display: none;
 }
 
 .logo__bg {
@@ -769,12 +878,15 @@ main {
   position: absolute;
   bottom: 0;
   right: 0;
+  display: none;
 }
 
 .vatman__bg {
   display: block;
   width: 697px;
   height: 558px;
+  position: relative;
+  z-index: 70;
 }
 
 .vatman__banner {
@@ -785,6 +897,7 @@ main {
   left: 0;
   top: 208px;
   height: 216px;
+  z-index: 110;
 }
 
 .vatman__quote {
@@ -799,6 +912,7 @@ main {
   font-family: 'PT Serif', serif;
   font-style: italic;
   font-size: 16px;
+  color: #a3a3a3;
 }
 
 .share__btn {
@@ -828,7 +942,7 @@ main {
   background: #3c5a95;
   color: #fff;
   border: none;
-  padding: 30px;
+  padding: 30px 2px;
 }
 
 .share__btn--fb:hover {
@@ -862,7 +976,7 @@ main {
   background: #1074b1;
   color: #fff;
   border: none;
-  padding: 30px;
+  padding: 30px 2px;
 }
 
 .share__btn--vk:hover {
@@ -896,7 +1010,7 @@ main {
   background: #20a7c6;
   color: #fff;
   border: none;
-  padding: 30px;
+  padding: 30px 2px;
 }
 
 .share__btn--tw:hover {
@@ -915,8 +1029,8 @@ main {
 }
 
 .share__counter {
-  margin-left: 12px;
-  font-size: 20px;
+  margin-left: 8px;
+  font-size: 12px;
   line-height: 0;
   vertical-align: middle;
 }

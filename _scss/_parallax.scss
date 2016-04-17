@@ -1,13 +1,82 @@
 .parallax {
     // background: #fff;
-    // float: left;
+    float: right;
     // max-width: 480px;
     // box-shadow: 0 0 40px rgba(#000,.65);
-    padding: 40px 48px;
+    // padding: 40px 48px;
     box-sizing: border-box;
-    position: absolute;
+    // position: absolute;
     right: 0;
     height: 100%;
-    width: 62%;
+    width: 70%;
+    // padding-left: 480px;
     background: linear-gradient(to top, #761603, #d93919 100%);
+    position: relative;
+
+    &__men {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate3d(-50%,0,0);
+        width: 100%;
+        height: auto;
+        z-index: 180;
+    }
+
+    &__star {
+        position: absolute;
+        bottom: 0;
+        // top: 30%;
+        left: 50%;
+        // transform: translate3d(0,50%,0);
+        width: 80%;
+        height: auto;
+        z-index: 50;
+        animation: roter 80s linear infinite;
+    }
+
+    &__balls {
+        position: absolute;
+        // bottom: -100px;
+        left: 50%;
+        transform: translate3d(-50%,0,0);
+        width: 95%;
+        height: auto;
+        z-index: 50;
+
+        &--one {
+            animation: shifter-one 8s linear infinite;
+        }
+
+        &--two {
+            animation: shifter-two 8s linear infinite;
+        }
+    }
+}
+
+@keyframes roter {
+    from {
+        transform: translate3d(-50%,20%,0) rotate(0);
+    }
+    to {
+        transform: translate3d(-50%,20%,0) rotate(-360deg);
+    }
+}
+
+@keyframes shifter-one {
+    from {
+        top: 0;
+    }
+    to {
+        top: 100%;
+    }
+}
+
+@keyframes shifter-two {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0;
+    }
 }

@@ -1,14 +1,10 @@
 // FlipClock
 
-// var clock = $('.clock').FlipClock(3600 * 24 * 4, {
-//     clockFace: 'DailyCounter',
-//     defaultLanguage: 'russian'
-// });
+var currentDate = new Date(),
+    pastDate  = new Date('2016-04-12 11:02:12'),
+    diff = currentDate.getTime() / 1000 - pastDate.getTime() / 1000;
 
-var clock = new FlipClock($('.js-timer'), {
+clock = $('.js-timer').FlipClock(diff, {
     clockFace: 'DailyCounter',
-    language: 'Russian'
+    language: 'russian'
 });
-
-var date = new Date();
-clock.setTime((date.getHours() * 1660 * 60) + (date.getMinutes() * 60) + date.getSeconds());

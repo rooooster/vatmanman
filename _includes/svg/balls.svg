@@ -1,0 +1,21 @@
+<svg class="{{ include.class }}" viewBox="0 0 879 615" xmlns="http://www.w3.org/2000/svg">
+    <title>Balls</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.1">
+        <g id="Desktop-HD-Copy" transform="translate(-538.000000, -61.000000)" fill="#FFFFFF">
+            <g id="Wish-Happy" transform="translate(-7.000000, -33.000000)">
+                <g id="Group-9" transform="translate(545.000000, 94.000000)">
+                    <ellipse id="Oval-46" cx="64.5" cy="61.5016661" rx="24.5" ry="24.5016661"></ellipse>
+                    <ellipse id="Oval-46-Copy" cx="799.5" cy="142.502346" rx="34.5" ry="34.5023461"></ellipse>
+                    <ellipse id="Oval-46-Copy-2" cx="469.5" cy="14.5009861" rx="14.5" ry="14.5009861"></ellipse>
+                    <ellipse id="Oval-46-Copy-6" cx="864.5" cy="600.500986" rx="14.5" ry="14.5009861"></ellipse>
+                    <ellipse id="Oval-46-Copy-7" cx="752.5" cy="421.501666" rx="24.5" ry="24.5016661"></ellipse>
+                    <ellipse id="Oval-46-Copy-3" cx="69.5" cy="530.501326" rx="19.5" ry="19.5013261"></ellipse>
+                    <ellipse id="Oval-46-Copy-4" cx="10.5" cy="331.500714" rx="10.5" ry="10.500714"></ellipse>
+                    <ellipse id="Oval-46-Copy-5" cx="180.5" cy="321.502074" rx="30.5" ry="30.5020741"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
