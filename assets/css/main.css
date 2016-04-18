@@ -1185,16 +1185,25 @@ main {
 .timer ul li a div div.inn {
   font-size: 40px;
   font-weight: 100;
+  text-shadow: none;
+  color: #fff;
+  background-color: #bc2f13;
+}
+
+.timer ul li a div.up:after {
+  background: transparent;
 }
 
 .timer .flip-clock-divider .flip-clock-label {
   top: auto;
   bottom: -1.5em;
   right: -62px;
+  color: rgba(75, 75, 75, 0.5);
+  font-size: 14px;
 }
 
 .timer .flip-clock-divider {
-  width: 16px;
+  width: 14px;
 }
 
 .timer .flip-clock-divider:first-child {
@@ -1202,8 +1211,16 @@ main {
 }
 
 .timer .flip-clock-dot {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
+  background: #bc2f13;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.timer .flip {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .logo {

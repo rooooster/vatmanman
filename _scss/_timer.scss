@@ -14,17 +14,26 @@
         li a div div.inn {
             font-size: 40px;
             font-weight: 100;
+            text-shadow: none;
+            color: #fff;
+            background-color: #bc2f13;
         }
+    }
+
+    ul li a div.up:after {
+        background: transparent;
     }
 
     .flip-clock-divider .flip-clock-label {
         top: auto;
         bottom: -1.5em;
         right: -62px;
+        color: rgba(#4b4b4b,.5);
+        font-size: 14px;
     }
 
     .flip-clock-divider {
-        width: 16px;
+        width: 14px;
 
         &:first-child {
             width: 0;
@@ -32,8 +41,14 @@
     }
 
     .flip-clock-dot {
-        width: 5px;
-        height: 5px;
+        width: 4px;
+        height: 4px;
+        background: rgba(#bc2f13,1);
+        box-shadow: none;
+    }
+
+    .flip {
+        box-shadow: none;
     }
 
     // .flip-clock-divider {
