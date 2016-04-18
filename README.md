@@ -1,6 +1,6 @@
 # Lucky Labs Vatman Man
 
-Web development of Lucky Labs Vatman Man site ([rooooster.com/grabluckylabs](http://rooooster.com/grabluckylabs))
+Web development of Lucky Labs Vatman Man site ([rooooster.com/luckylabs](http://rooooster.com/luckylabs))
 
 ### Run
 
