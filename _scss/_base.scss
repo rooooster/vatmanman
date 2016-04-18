@@ -21,9 +21,10 @@ a {
     color: #bc2f13;
     text-decoration: none;
     display: inline-block;
+    transition: color .2s ease;
 
     &:hover {
-
+        color: darken(#bc2f13, 15);
     }
 }
 

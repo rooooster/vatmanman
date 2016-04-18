@@ -592,6 +592,12 @@ a {
   color: #bc2f13;
   text-decoration: none;
   display: inline-block;
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+a:hover {
+  color: #771e0c;
 }
 
 @media (min-width: 754px) {
@@ -1374,6 +1380,7 @@ a {
 .share__btn {
   width: 33.33333%;
   float: left;
+  position: relative;
 }
 
 .share__btn--fb {
@@ -1479,14 +1486,17 @@ a {
 }
 
 .share__btn [class^="icon-"] {
-  vertical-align: middle;
   font-size: 30px;
   line-height: 0;
+  position: relative;
+  top: 6px;
 }
 
 .share__counter {
-  margin-left: 8px;
   font-size: 12px;
-  line-height: 0;
-  vertical-align: middle;
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+          transform: translate3d(0, -50%, 0);
 }

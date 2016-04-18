@@ -3,6 +3,7 @@
     &__btn {
         width: 33.33333%;
         float: left;
+        position: relative;
 
         &--fb {
             @include btn--social(#3c5a95);
@@ -17,16 +18,22 @@
         }
 
         [class^="icon-"] {
-            vertical-align: middle;
+            // vertical-align: middle;
             font-size: 30px;
             line-height: 0;
+            position: relative;
+            top: 6px;
         }
     }
 
     &__counter {
-        margin-left: 8px;
+        // margin-left: 8px;
         font-size: 12px;
-        line-height: 0;
-        vertical-align: middle;
+        // line-height: 0;
+        // vertical-align: middle;
+        position: absolute;
+        right: 20%;
+        top: 50%;
+        transform: translate3d(0,-50%,0);
     }
 }
