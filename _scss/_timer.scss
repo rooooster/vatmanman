@@ -9,6 +9,10 @@
         width: 40px;
         margin: 0 1px 0 0;
 
+            @media (min-width: 754px) {
+                margin: 0 2px 0 0;
+            }
+
         li a div div.inn {
             font-size: 30px;
             font-weight: 100;

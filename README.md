@@ -1,6 +1,6 @@
 # Lucky Labs Vatman Man
 
-Web development of Lucky Labs Vatman Man site ([rooooster.com/luckylabs](http://rooooster.com/luckylabs))
+Web development of Lucky Labs Vatman Man page ([rooooster.com/luckylabs](http://rooooster.com/luckylabs))
 
 ### Run
 
@@ -8,6 +8,8 @@ Web development of Lucky Labs Vatman Man site ([rooooster.com/luckylabs](http://
 
 `npm start` or `gulp`
 
-Powered by [Rooster Studio](http://rooooster.com)
+Design by [Anton Pivniuk](https://www.behance.net/antonpivniuk) (Lead UI/UX Engineer at [Lucky Labs](http://lucky-labs.com) & [Rooster Studio](http://rooooster.com) Owner)
 
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+Front-end by [Ihor Orlovskyi](http://ihororlovskyi.com) (Lead Front-end Programmer at [Lucky Labs](http://lucky-labs.com) & [Rooster Studio](http://rooooster.com) Owner)
+
+Proudly Hosted by [GitHub Pages](https://pages.github.com)
