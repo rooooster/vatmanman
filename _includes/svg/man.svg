@@ -1,6 +1,6 @@
 <svg class="{{ include.class }}" viewBox="0 0 959 591" xmlns="http://www.w3.org/2000/svg">
-    <title>MEN</title>
-    <desc>Created with Sketch.</desc>
+    <title>Man</title>
+    <desc>Man</desc>
     <defs>
         <polygon id="path-1" points="0.00763358779 7.56269162 47.7110256 0.272199214 45.8892864 5.52290541 68.0151257 70.9652992 78.1992153 139.055921 56.4331974 88.8700081 22.7681087 24.4064918 0.00763358779 11.6494833"></polygon>
         <path d="M0.00763358779,7.56269162 C0.00763358779,7.56269162 21.5815987,11.3601489 30.4181732,10.0096584 C37.4827294,8.9299848 47.7110256,0.272199214 47.7110256,0.272199214 L45.8892864,5.52290541 L73.6104458,47.1855475 C81.8707341,59.6000872 86.781782,81.6126871 84.5770928,96.3687015 L78.1992153,139.055921 L56.4331974,88.8700081 L22.7681087,24.4064918 L0.00763358779,11.6494833 L0.00763358779,7.56269162 Z" id="path-3"></path>
@@ -52,7 +52,7 @@
                             <g id="Group-8" mask="url(#mask-4)">
                                 <g transform="translate(52.515190, 47.625380) rotate(-29.000000) translate(-52.515190, -47.625380) translate(42.515190, 27.125380)">
                                     <path d="M9.9475983e-14,10.125 L3.87504716,10.125 C5.91876934,10.125 7.95627782,27.0070362 10,27.0070362 C12.1703244,27.0070362 14.3468626,10.125 16.517187,10.125 L20,10.125 L20,41 L10,34.9910297 L9.9475983e-14,41 L9.9475983e-14,10.125 Z" id="Rectangle-76" fill="#FFFFFF" fill-rule="evenodd"></path>
-                                    <text id="V" fill="none" font-family="AvenirNext-Bold, Avenir Next" font-size="27.5" font-weight="bold">
+                                    <text id="V" fill="none" font-family="OpenSans-Bold, Open Sans" font-size="27.5" font-weight="bold">
                                         <tspan x="0.232689913" y="28.6405707" fill="#EF3510">V</tspan>
                                     </text>
                                 </g>
@@ -68,13 +68,13 @@
                         </g>
                         <g id="Group-3" transform="translate(113.000000, 0.000000)">
                             <path d="M28,65 L58.6128726,65 C74.7582778,65 90.8545948,200.05629 107,200.05629 C124.145563,200.05629 141.340214,65 158.485777,65 L186,65 L186,312 L107,263.928238 L28,312 L28,65 Z" id="Rectangle-76" fill="#7F1400"></path>
-                            <text id="V" font-family="AvenirNext-Bold, Avenir Next" font-size="220" font-weight="bold" fill="#EF3510">
+                            <text id="V" font-family="OpenSans-Bold, Open Sans" font-size="220" font-weight="bold" fill="#EF3510">
                                 <tspan x="31.98" y="220">V</tspan>
                             </text>
-                            <text id="VАТМАN" font-family="AvenirNext-Bold, Avenir Next" font-size="40" font-weight="bold" fill="#FFFFFF">
+                            <text id="VАТМАN" font-family="OpenSans-Bold, Open Sans" font-size="40" font-weight="bold" fill="#FFFFFF">
                                 <tspan x="17.68" y="150">VАТМАN</tspan>
                             </text>
-                            <text id="MEN" font-family="AvenirNext-Regular, Avenir Next" font-size="36" font-weight="normal" fill="#FFFFFF">
+                            <text id="MEN" font-family="OpenSans-Regular, Open Sans" font-size="36" font-weight="normal" fill="#FFFFFF">
                                 <tspan x="66.644" y="187">MEN</tspan>
                             </text>
                             <rect id="Rectangle-81" fill="#FFFFFF" opacity="0.2" x="79" y="196" width="56" height="2"></rect>
@@ -99,7 +99,7 @@
 
                             <g id="Group-5" transform="translate(166.000000, 247.000000)" fill="#BC2F13">
 
-                                <text id="СМОТРЕТЬ" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400">
+                                <text id="СМОТРЕТЬ" font-family="OpenSans-Medium, Open Sans" font-size="14" font-weight="400">
                                     <tspan x="27" y="14">СМОТРЕТЬ</tspan>
                                 </text>
 
@@ -110,7 +110,7 @@
                         </g>
 
                         <g id="Group-2" transform="translate(28.000000, 347.000000)" font-weight="normal">
-                            <text id="“На-нашем-ватмане-вы" font-family="AvenirNext-Regular, Avenir Next" font-size="30" fill="#B22B10">
+                            <text id="“На-нашем-ватмане-вы" font-family="OpenSans-Regular, Open Sans" font-size="30" fill="#B22B10">
                                 <tspan x="0" y="41">“На нашем ватмане вы </tspan>
                                 <tspan x="0" y="82">детей называете сырьем!!”</tspan>
                             </text>

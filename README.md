@@ -1,6 +1,6 @@
-# Vatman
+# Lucky Labs Vatman Man
 
-Web development of Vatman site ([nebo.ua](http://nebo.ua))
+Web development of Lucky Labs Vatman Man site ([rooooster.com/luckylabs](http://rooooster.com/luckylabs))
 
 ### Run
 

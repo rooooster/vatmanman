@@ -1,2 +1,2 @@
-baseurl: '/vatman'
+baseurl: '/luckylabs'
 exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json', 'CNAME']
