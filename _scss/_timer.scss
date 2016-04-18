@@ -1,5 +1,3 @@
-@import 'vendor/flipclock';
-
 .timer {
     margin: 0 0 120px;
     // margin: 0 0 60px;
@@ -13,7 +11,7 @@
     }
 
     ul {
-        width: 42px;
+        width: 40px;
         margin: 0 2px;
 
         li a div div.inn {
@@ -55,41 +53,4 @@
     .flip {
         box-shadow: none;
     }
-
-    // .flip-clock-divider {
-    //     position: absolute;
-    //     bottom: 0;
-    //     // left: 0;
-    //     font-size: 5px;
-    //     color: #4b4b4b;
-    //     // font-weight: 300;
-    // }
-
-    // ul {
-    //     margin: 0 2px;
-    //     margin: 0;
-    //     // width: auto;
-    //     padding: 0;
-    //     list-style: none;
-    //     position: relative;
-    //     float: left;
-    //     width: 30px;
-    //     // text-align: left;
-
-    //     li {
-    //         width: 20px;
-    //         height: auto;
-
-    //         a div div.inn {
-    //             font-size: 64px;
-    //             font-size: 10px;
-    //             color: #bc2f13;
-    //             font-weight: 300;
-    //             position: absolute;
-    //             left: 0;
-    //             top: 0;
-    //             background: #fff;
-    //         }
-    //     }
-    // }
 }
