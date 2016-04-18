@@ -13,6 +13,6 @@ clock = $('.js-timer').FlipClock(diff, {
 
 $(".youtube-link").on("click", function() {
 
-    window.open('https://www.youtube.com/watch?v=lPIW8yZ2F_o','_blank');
+    window.open('https://www.facebook.com/LuckyLabsCompany/videos/1673526512897392/','_blank');
 
 });

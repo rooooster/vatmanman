@@ -43,6 +43,7 @@
         width: 95%;
         height: auto;
         z-index: 50;
+        opacity: .25;
 
         &--one {
             animation: shifter-one 8s linear infinite;

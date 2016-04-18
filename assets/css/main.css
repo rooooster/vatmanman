@@ -620,7 +620,6 @@ main {
 .content__hash {
   font-size: 23px;
   margin-bottom: 80px;
-  font-weight: 900;
 }
 
 .content__timer {
@@ -686,6 +685,7 @@ main {
   width: 95%;
   height: auto;
   z-index: 50;
+  opacity: .25;
 }
 
 .parallax__balls--one {
