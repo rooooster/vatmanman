@@ -6,6 +6,11 @@
     position: relative;
     @include clearfix;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: none;
+
+    @media (min-width: 754px) {
+        display: block;
+    }
 
     ul {
         width: 42px;
