@@ -3,7 +3,7 @@
     float: left;
     width: 100%;
     box-shadow: 0 0 40px rgba(#000,.65);
-    padding: 28px;
+    padding: 80px 12px 30px;
     box-sizing: border-box;
     position: relative;
     // width: 30%;
@@ -14,6 +14,7 @@
         position: absolute;
         width: 480px;
         height: 100%;
+        padding: 28px;
     }
 
     &__hash {
