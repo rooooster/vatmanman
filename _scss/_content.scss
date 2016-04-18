@@ -9,6 +9,7 @@
     // width: 30%;
     z-index: 200;
     // display: none;
+    overflow-y: scroll;
 
     @media (min-width: 754px) {
         position: absolute;

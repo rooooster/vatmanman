@@ -622,6 +622,7 @@ a:hover {
           box-sizing: border-box;
   position: relative;
   z-index: 200;
+  overflow-y: scroll;
 }
 
 @media (min-width: 754px) {
