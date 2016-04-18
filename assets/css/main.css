@@ -1208,7 +1208,6 @@ a:hover {
   margin: 0 0 120px;
   position: relative;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  display: none;
 }
 
 .timer::after {
@@ -1217,23 +1216,23 @@ a:hover {
   display: table;
 }
 
-@media (min-width: 754px) {
-  .timer {
-    display: block;
-  }
-}
-
 .timer ul {
   width: 40px;
-  margin: 0 2px;
+  margin: 0 1px 0 0;
 }
 
 .timer ul li a div div.inn {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 100;
   text-shadow: none;
   color: #fff;
   background-color: #bc2f13;
+}
+
+@media (min-width: 754px) {
+  .timer ul li a div div.inn {
+    font-size: 40px;
+  }
 }
 
 .timer ul li a div.up:after {

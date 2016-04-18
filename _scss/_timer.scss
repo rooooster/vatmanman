@@ -4,22 +4,21 @@
     position: relative;
     @include clearfix;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    display: none;
-
-    @media (min-width: 754px) {
-        display: block;
-    }
 
     ul {
         width: 40px;
-        margin: 0 2px;
+        margin: 0 1px 0 0;
 
         li a div div.inn {
-            font-size: 40px;
+            font-size: 30px;
             font-weight: 100;
             text-shadow: none;
             color: #fff;
             background-color: #bc2f13;
+
+            @media (min-width: 754px) {
+                font-size: 40px;
+            }
         }
     }
 
