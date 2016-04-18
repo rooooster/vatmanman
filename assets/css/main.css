@@ -594,27 +594,36 @@ a {
   display: inline-block;
 }
 
-main {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  overflow: hidden;
+@media (min-width: 754px) {
+  main {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
 }
 
 .content {
   background: #fff;
   float: left;
-  width: 480px;
+  width: 100%;
   -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);
           box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);
   padding: 28px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  position: absolute;
-  height: 100%;
+  position: relative;
   z-index: 200;
+}
+
+@media (min-width: 754px) {
+  .content {
+    position: absolute;
+    width: 480px;
+    height: 100%;
+  }
 }
 
 .content__hash {
@@ -642,28 +651,45 @@ main {
 }
 
 .parallax {
-  float: right;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  float: left;
   right: 0;
-  height: 100%;
   width: -webkit-calc(100% - 480px);
   width: calc(100% - 480px);
+  width: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#761603), to(#d93919));
   background: -webkit-linear-gradient(bottom, #761603, #d93919 100%);
   background: linear-gradient(to top, #761603, #d93919 100%);
   position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 754px) {
+  .parallax {
+    float: right;
+    width: -webkit-calc(100% - 480px);
+    width: calc(100% - 480px);
+    height: 100%;
+  }
 }
 
 .parallax__man {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translate3d(-50%, 0, 0);
-          transform: translate3d(-50%, 0, 0);
+  position: relative;
   width: 100%;
   height: auto;
   z-index: 180;
+  padding-top: 80px;
+}
+
+@media (min-width: 754px) {
+  .parallax__man {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0);
+  }
 }
 
 .parallax__star {
@@ -1166,7 +1192,7 @@ main {
 }
 
 .timer {
-  margin: 0 0 140px;
+  margin: 0 0 120px;
   position: relative;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

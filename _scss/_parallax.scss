@@ -1,26 +1,38 @@
 .parallax {
     // background: #fff;
-    float: right;
     // max-width: 480px;
     // box-shadow: 0 0 40px rgba(#000,.65);
     // padding: 40px 48px;
     box-sizing: border-box;
     // position: absolute;
+    float: left;
     right: 0;
-    height: 100%;
     width: calc(100% - 480px);
-    // padding-left: 480px;
+     width: 100%;
+   // padding-left: 480px;
     background: linear-gradient(to top, #761603, #d93919 100%);
     position: relative;
+    overflow: hidden;
+
+    @media (min-width: 754px) {
+        float: right;
+        width: calc(100% - 480px);
+        height: 100%;
+    }
 
     &__man {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translate3d(-50%,0,0);
+        position: relative;
         width: 100%;
         height: auto;
         z-index: 180;
+        padding-top: 80px;
+
+        @media (min-width: 754px) {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate3d(-50%,0,0);
+        }
     }
 
     &__star {
