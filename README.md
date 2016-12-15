@@ -1,17 +1,21 @@
-# Lucky Labs Vatman Man
+# luckylabs
 
-Web development of Lucky Labs Vatman Man page ([rooooster.com/luckylabs](http://rooooster.com/luckylabs))
+_Front-end development of Lucky Labs Vatman Man page_
+
+### Used
+
+[Jekyll](https://jekyllrb.com) - static site generator based on [Ruby](https://www.ruby-lang.org)
+
+[Gulp](http://gulpjs.com) - build system based on [NodeJS](https://nodejs.org)
+
+[Coriolan UI](https://coriolan-ui.github.io) - [Sass](http://sass-lang.com) mixins pack
+
+[GitHub Pages](https://pages.github.com) - free hosting
 
 ### Run
 
 `npm i`
 
-`npm start` or `gulp`
+`gulp`
 
-### Cast
-
-Design by [Anton Pivniuk](https://www.behance.net/antonpivniuk) (Lead UI/UX Engineer at [Lucky Labs](http://lucky-labs.com) & [Rooster Studio](http://rooooster.com) Owner)
-
-Front-end by [Ihor Orlovskyi](http://ihororlovskyi.com) (Lead Front-end Engineer at [Lucky Labs](http://lucky-labs.com) & [Rooster Studio](http://rooooster.com) Owner)
-
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+#### Have fun! :)

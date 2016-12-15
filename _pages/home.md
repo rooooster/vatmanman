@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 permalink: /
 lang: ru
 name: home
@@ -7,5 +7,5 @@ name: home
 title: '#ЗахватLuckyLabs'
 description: 'Сотрудники СБУ провели в офисах IT компании Lucky Labs обыски и изьятие техники #захватLuckyLabs'
 
-og-image: 'http://rooooster.com/content/vatman/luckylabs.jpg'
+og-image: 'http://rooooster.com/luckylabs/assets/img/og-images/luckylabs.jpg'
 ---

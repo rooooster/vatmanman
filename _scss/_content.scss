@@ -6,14 +6,12 @@
     padding: 80px 12px 30px;
     box-sizing: border-box;
     position: relative;
-    // width: 30%;
     z-index: 200;
-    // display: none;
     overflow-y: scroll;
 
     @media (min-width: 754px) {
         position: absolute;
-        width: 480px;
+        width: 520px;
         height: 100%;
         padding: 40px 26px;
     }
@@ -21,18 +19,14 @@
     &__hash {
         font-size: 23px;
         margin-bottom: 80px;
-        // font-weight: 900;
     }
 
     &__timer {
-        // color: #585858;
         font-size: 21px;
         margin-bottom: 20px;
     }
 
     &__p {
-        // color: #585858;
-        // font-size: 16px;
         margin-bottom: 20px;
     }
 

@@ -1,2 +1,3 @@
 baseurl: '/luckylabs'
-exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json', 'CNAME']
+include: ['_pages']
+exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json']

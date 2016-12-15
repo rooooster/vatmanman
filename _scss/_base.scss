@@ -1,21 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,900|PT+Serif:400,400italic&subset=latin,cyrillic';
+
 html {
     height: 100%;
-    // background: #fff;
 }
 
 body {
-    // max-width: 1440px;
+    background: $bodyBg;
+    font: $bodyFont;
+    color: $bodyColor;
     height: 100%;
     position: relative;
     @include clearfix;
     margin: 0 auto;
-    // overflow: hidden;
     box-shadow: 0 0 40px rgba(#000,.65);
 }
-
-// p {
-//     margin: 0 0 1em;
-// }
 
 a {
     color: #bc2f13;
@@ -29,20 +27,7 @@ a {
 }
 
 main {
-    // float: right;
-    // margin-top: 150px;
-    // margin-right: 150px;
-    // position: absolute;
-    // left: 50%;
-    // bottom: 0;
-    // float: right;
-    // width: 960px;
-    // height: 727px;
-    // position: relative;
-    // height: 100%;
-    // @include ratio(100%,1440,800);
-    // margin: auto;
-    
+
     @media (min-width: 754px) {
         overflow: hidden;
         position: absolute;

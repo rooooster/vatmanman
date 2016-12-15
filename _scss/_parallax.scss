@@ -1,15 +1,9 @@
 .parallax {
-    // background: #fff;
-    // max-width: 480px;
-    // box-shadow: 0 0 40px rgba(#000,.65);
-    // padding: 40px 48px;
     box-sizing: border-box;
-    // position: absolute;
     float: left;
     right: 0;
     width: calc(100% - 480px);
      width: 100%;
-   // padding-left: 480px;
     background: linear-gradient(to top, #761603, #d93919 100%);
     position: relative;
     overflow: hidden;
@@ -43,9 +37,7 @@
     &__star {
         position: absolute;
         bottom: 0;
-        // top: 30%;
         left: 50%;
-        // transform: translate3d(0,50%,0);
         width: 80%;
         height: auto;
         z-index: 50;
@@ -54,7 +46,6 @@
 
     &__balls {
         position: absolute;
-        // bottom: -100px;
         left: 50%;
         transform: translate3d(-50%,0,0);
         width: 95%;
