@@ -16,6 +16,6 @@ _Front-end development of Lucky Labs Vatman Man page_
 
 `npm i`
 
-`gulp`
+`gulp watch`
 
 #### Have fun! :)
